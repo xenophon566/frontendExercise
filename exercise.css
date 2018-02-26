@@ -1,0 +1,62 @@
+div.container {
+    width: 92%;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+
+div.container header {
+    background-color: #333;
+    color: #FFF;
+}
+
+header,
+footer {
+    padding: 1em;
+    clear: left;
+    text-align: center;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+}
+
+nav {
+    float: left;
+    max-width: 160px;
+    margin: 0;
+    padding: 1em;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    color: #333333;
+    font-size: 120%
+}
+
+nav ul a {
+    text-decoration: none;
+    color: red;
+}
+
+article {
+    position: relative;
+    margin-left: 170px;
+    border-left: 1px solid gray;
+    padding: 1em;
+    overflow: hidden;
+    text-align: center;
+}
+
+#myCanvas {
+    position: absolute;
+    top: 1%;
+    left: 1%;
+}
+
+.signIn {
+    position: absolute;
+    top: 20px;
+    right: 80px;
+}
